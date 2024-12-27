@@ -7,14 +7,14 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 
 
 **Technologies Used:**
-- **HTML** Markup language for structuring the web page.
-- **CSS** Style sheet language for designing the appearance of the web page.
-- **JavaScript** Programming language for adding interactivity and logic to the web page.
+- **HTML**: Markup language for structuring the web page.
+- **CSS**: Style sheet language for designing the appearance of the web page.
+- **JavaScript**: Programming language for adding interactivity and logic to the web page.
 - **React:** Library for building the user interface with reusable components.
-- *   **APIs:**
+- **APIs:**
     *   **Namsor API:** Used to determine the probable country of origin of a given name.
     *   **Giphy API:** Used to fetch relevant GIFs related to the identified country.
-    *   **Rest Countries API:** Used to obtain country flags and other information about countries.
+    *   **[Rest Countries API]([URL del enlace](https://restcountries.com/#endpoints-name)):** Used to obtain country flags.
 
 **Instructions to Run the Project:**
 1. Clone the repository: `git clone <repository-URL>`
