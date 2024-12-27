@@ -5,6 +5,12 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 
 **Features**:
 
+*   **Search:** Allows users to search for the origin of a name by entering the full name, only the first name, or only the last name.
+*   **Name Details:** Displays the possible country of origin of the searched name, along with the estimated probability of that being the correct origin.
+*   **Country Flag:** Shows the flag of the country corresponding to the name's origin.
+*   **Country Detail:** Allows the user to click on the flag to obtain a random GIF related to that country.
+*   **Styling:** Basic responsive design using CSS, adapting to different screen sizes.
+*   **Error Handling:** Includes basic error handling for cases where the APIs fail or do not return information.
 
 **Technologies Used:**
 - **HTML**: Markup language for structuring the web page.
@@ -12,10 +18,11 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 - **JavaScript**: Programming language for adding interactivity and logic to the web page.
 - **React:** Library for building the user interface with reusable components.
 - **APIs:**
- 
 *   **[Namsor API](https://namsor.app/):** Used to determine the probable country of origin of a given name.
 *   **[Giphy API](https://developers.giphy.com/docs/):** Used to fetch relevant GIFs related to the identified country.
 *   **[Rest Countries API](https://restcountries.com/):** Used to obtain country flags and information.
+
+  
 **Instructions to Run the Project:**
 1. Clone the repository: `git clone <repository-URL>`
 2. Navigate to the project directory: `cd pokemon-app`
