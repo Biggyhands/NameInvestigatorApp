@@ -13,7 +13,7 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 - **React:** Library for building the user interface with reusable components.
 - **APIs:**
  
-*   **[Namsor API](https://www.namsor.com/docs):** Used to determine the probable country of origin of a given name.
+*   **[Namsor API](https://namsor.app/):** Used to determine the probable country of origin of a given name.
 *   **[Giphy API](https://developers.giphy.com/docs/):** Used to fetch relevant GIFs related to the identified country.
 *   **[Rest Countries API](https://restcountries.com/):** Used to obtain country flags and information.
 **Instructions to Run the Project:**
