@@ -31,3 +31,16 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 
 
 **Project Mockups :**
+
+**Home Center**
+![image](https://github.com/user-attachments/assets/fedc2d0f-dc47-488d-b950-95f44d03fa88)
+
+**Search Result** 
+![image](https://github.com/user-attachments/assets/6d3dbc57-cba4-41b3-a5b9-89efe82e07f8)
+
+**Country Detail**
+
+![image](https://github.com/user-attachments/assets/2aff345d-700d-4e9d-8762-eed3e2138bdf)
+
+
+
