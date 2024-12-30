@@ -28,3 +28,6 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 2. Navigate to the project directory: `cd pokemon-app`
 3. Install dependencies: `npm install`
 4. Run the application: `npm start`
+
+
+**Project Mockups :**
