@@ -1,3 +1,11 @@
+/*Custom Properties*/
+:root{
+  --font-primary: 'Arial', sans-serif; /* Variable para el tipo de letra principal */
+  --background-color: #f0f0f0;        /* Variable para el color de fondo */
+  --text-color: #333;                /* Variable para el color de texto */
+  --primary-color: #007bff;          /* Variable para el color primario */
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
