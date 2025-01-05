@@ -1,9 +1,11 @@
 /*Custom Properties*/
-:root{
-  --font-primary: 'Arial', sans-serif; /* Variable para el tipo de letra principal */
-  --background-color: #f0f0f0;        /* Variable para el color de fondo */
-  --text-color: #333;                /* Variable para el color de texto */
-  --primary-color: #007bff;          /* Variable para el color primario */
+:root {
+  --font-primary: "Roboto", sans-serif; /* Variable para el tipo de letra principal  500 para titutlos  400 para texto*/
+  --background-color: #ffffff; /* Variable para el color de fondo */
+  --text-color: black; /* Variable para el color de texto */
+  --primary-color: #007bff; /* Variable para el color primario */
+  --primary-red-color: #ed1d17; /* Variable para el color rojo primario */
+  --secondary-red-color: #f2cfce; /* Variable para el color rojo primario - boton no seleccionado */
 }
 
 #root {
