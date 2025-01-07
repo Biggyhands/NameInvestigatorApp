@@ -8,15 +8,84 @@
   --secondary-red-color: #f2cfce; /* Variable para el color rojo primario - boton no seleccionado */
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/*Reset Properties*/
+* {
+  color: var(--text-color);
+  font-family: var(--font-primary);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title styling*/
+.appTitle {
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.appTitle svg {
+  display: none;
+}
+
+/* Search Bar styling*/
+.searchBarContainer {
+  height: 50px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.searchBarContainer input {
+  width: auto;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 191, 191);
+  text-align: center;
+}
+
+.searchBarContainer button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid var(--primary-red-color);
+  border-radius: 10px;
+  background-color: var(--primary-red-color);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.searchBarContainer button svg {
+  background-color: #ed1d17;
+}
+
+.searchBarContainer input:hover {
+  cursor: pointer;
+  border-color: rgb(146, 146, 146);
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.searchBarContainer input:active {
+  border-color: rgb(146, 146, 146);
+}
+
+.searchBarContainer button:hover {
+  cursor: pointer;
+}
+
+.searchBarContainer button:active {
+  background-color: #ed1d17;
+  box-shadow: 0 5px #a3a3a3;
+  transform: translateY(4px);
 }

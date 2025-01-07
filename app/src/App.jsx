@@ -1,9 +1,11 @@
-
+import { AppTitle } from "./components/appTitle";
+import { SearchBar } from "./components/SearchBar";
 
 function App() {
   return (
     <>
-      <h1>Hola mundo</h1>
+      <AppTitle />
+      <SearchBar />
     </>
   );
 }

@@ -47,3 +47,5 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 **Assets used**
 
 - **[favicon.io](https://favicon.io/emoji-favicons/magnifying-glass-tilted-left):** App Icon
+
+- **[SVGrepo](https://www.svgrepo.com/svg/127033/magnifying-glass):** Search icon, title Icon
