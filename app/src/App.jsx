@@ -1,11 +1,8 @@
-import { AppTitle } from "./components/appTitle";
-import { SearchBar } from "./components/SearchBar";
-
+import NameSearchForm from "./components/NameSearchForm";
 function App() {
   return (
     <>
-      <AppTitle />
-      <SearchBar />
+      <NameSearchForm />
     </>
   );
 }
