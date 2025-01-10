@@ -26,8 +26,8 @@ export default function NameSearchForm() {
     );
 
     if (response.ok) {
-      const data = await response.json(); // Extract JSON data from response
-      console.log(data); // View data in the console
+      const data = await response.json();
+      console.log(data);
     } else {
       console.error(
         "The request failed with status:",
@@ -36,8 +36,6 @@ export default function NameSearchForm() {
       );
     }
   };
-
-  handleSearch();
 
   return (
     <>
