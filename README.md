@@ -32,6 +32,10 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 3. Install dependencies: `npm install`
 4. Run the application: `npm start`
 
+**Important Note**
+
+This project uses the Namsor API to perform name-related analyses. To test the project in your local environment, you will need to obtain your own API Key from the official [Namsor API Website](https://namsor.app/):\*\*. This follows Namsor's best practices to ensure safe and personalized use of their API.
+
 **Initial Project Mockups :**
 
 **Home Center**
