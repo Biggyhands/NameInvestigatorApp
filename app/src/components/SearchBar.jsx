@@ -1,19 +1,29 @@
 import React from "react";
 
-export const SearchBar = () => {
+export const SearchBar = ({ onInputChange, onResetForm, onSearch }) => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    onSearch();
+    onResetForm();
+  };
+
   return (
-    <div className="searchBarContainer">
+    <form onSubmit={handleSubmit} className="searchBarContainer">
       <input
         className="SearchBarInput"
         type="text"
+        name="firstName"
         placeholder="Enter a name "
+        onChange={onInputChange}
       />
       <input
         className="SearchBarInput"
+        name="lastName"
         type="text"
         placeholder="Enter a last name "
+        onChange={onInputChange}
       />
-      <button>
+      <button type="submit">
         <svg
           height="20px"
           width="20px"
@@ -42,6 +52,6 @@ export const SearchBar = () => {
         </svg>
         Search
       </button>
-    </div>
+    </form>
   );
 };
