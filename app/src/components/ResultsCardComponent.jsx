@@ -3,8 +3,9 @@ import React from "react";
 export const ResultsCardComponent = ({ data }) => {
   return (
     <div>
-      <nav>
+      <nav className="results-navbar">
         <h1>Name Investigator App</h1>
+        <button>Back to Search</button>
       </nav>
       <section>
         {data.personalNames.map((result, index) => (

@@ -94,3 +94,7 @@ body {
   transform: translateY(4px);
 }
 /*Results Nav styling */
+
+.results-navbar {
+  display: flex;
+}

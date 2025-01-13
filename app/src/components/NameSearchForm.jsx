@@ -71,6 +71,7 @@ export default function NameSearchForm() {
           setFirstName={onInputChange}
           setLastName={onInputChange}
           onSearch={handleSearch}
+          onResetForm={onResetForm}
         />
       )}
       {error && <p style={{ color: "red" }}>{error}</p>}
