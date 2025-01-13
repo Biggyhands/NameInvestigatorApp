@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useForm } from "../hooks/useForm";
 
+import ResultsCardComponent from "./ResultsCardComponent";
 import { AppTitle } from "./appTitle";
 import { SearchBar } from "./SearchBar";
 
@@ -12,8 +13,7 @@ export default function NameSearchForm() {
 
   const { firstName, lastName } = formState;
 
-  console.log(firstName, lastName);
-
+  const [viewSearch, setviewSearch] = useState(true);
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
 
@@ -45,6 +45,7 @@ export default function NameSearchForm() {
         const data = await response.json();
         console.log("API Response:", data);
         setData(data);
+        setviewSearch(false);
         setError(null);
       } else {
         console.error(
@@ -62,28 +63,18 @@ export default function NameSearchForm() {
 
   return (
     <>
-      <AppTitle />
-      <SearchBar
-        onInputChange={onInputChange}
-        onResetForm={onResetForm}
-        onSearch={handleSearch}
-      />{" "}
-      {error && <p style={{ color: "red" }}>{error}</p>}
-      {data && (
-        <div>
-          <h3>Search Results:</h3>
-          {data.personalNames.map((result, index) => (
-            <div key={index}>
-              <p>Country Origin: {result.countryOrigin}</p>
-              <p>Country Origin Alt: {result.countryOriginAlt}</p>
-              <p>Probability Calibrated: {result.probabilityCalibrated}</p>
-              <p>
-                Probability Alt Calibrated: {result.probabilityAltCalibrated}
-              </p>
-            </div>
-          ))}
-        </div>
+      {viewSearch && <AppTitle />}
+      {viewSearch && (
+        <SearchBar
+          firstName={firstName}
+          lastName={lastName}
+          setFirstName={onInputChange}
+          setLastName={onInputChange}
+          onSearch={handleSearch}
+        />
       )}
+      {error && <p style={{ color: "red" }}>{error}</p>}
+      {!viewSearch && data && <ResultsCardComponent data={data} />}
     </>
   );
 }
