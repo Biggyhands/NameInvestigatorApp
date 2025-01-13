@@ -2,7 +2,7 @@ import React from "react";
 
 export const ResultsCardComponent = ({ data }) => {
   return (
-    <>
+    <div>
       <nav>
         <h1>Name Investigator App</h1>
       </nav>
@@ -20,7 +20,7 @@ export const ResultsCardComponent = ({ data }) => {
           </div>
         ))}
       </section>
-    </>
+    </div>
   );
 };
 
