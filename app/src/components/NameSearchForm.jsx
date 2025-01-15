@@ -76,7 +76,9 @@ export default function NameSearchForm() {
         />
       )}
       {error && <p style={{ color: "red" }}>{error}</p>}
-      {!viewSearch && data && <ResultsCardComponent data={data} />}
+      {!viewSearch && data && (
+        <ResultsCardComponent data={data} setviewSearch={setviewSearch} />
+      )}
     </>
   );
 }

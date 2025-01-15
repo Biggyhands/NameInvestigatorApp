@@ -1,4 +1,4 @@
-const countryCodes = {
+const countryNames = {
   AF: "Afghanistan",
   AL: "Albania",
   DZ: "Algeria",
@@ -204,3 +204,5 @@ const countryCodes = {
   ZM: "Zambia",
   ZW: "Zimbabwe",
 };
+
+export default countryNames;

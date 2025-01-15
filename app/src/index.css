@@ -122,6 +122,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   margin-right: 20px;
+  font-weight: bold;
 }
 
 .results-navbar button:hover {
@@ -171,4 +172,12 @@ body {
   cursor: pointer;
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.results-info span {
+  font-weight: bold;
+}
+
+.results-navbar h1 {
+  font-weight: bold;
 }
