@@ -36,13 +36,18 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 This project uses the Namsor API to perform name-related analyses. To test the project in your local environment, you will need to obtain your own API Key from the official [Namsor API Website](https://namsor.app/):\*\*. This follows Namsor's best practices to ensure safe and personalized use of their API.
 
 **Demo**
-<video controls src="2025-01-15-14-37-32.mp4" title="Title"></video>
+
+https://github.com/user-attachments/assets/e8e435d3-a58f-4e25-924c-8912ed1dbc56
+
+
 
 **Home**
-![Home](image.png)
+![image](https://github.com/user-attachments/assets/d71186f3-038b-456e-82e2-cca074952114)
+
 
 **Search Result**
-![Results](image-1.png)
+![image](https://github.com/user-attachments/assets/5201b0be-27e4-4346-a468-6daf27fc5a1d)
+
 
 **Assets used**
 
