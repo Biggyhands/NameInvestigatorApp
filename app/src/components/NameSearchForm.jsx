@@ -18,6 +18,8 @@ export default function NameSearchForm() {
   const [data, setData] = useState(null);
 
   const handleSearch = async () => {
+    /* console.log("Searching with:", { firstName, lastName }); debugging*/
+
     try {
       const apiKey = import.meta.env.VITE_NAMSOR_API_KEY;
       const response = await fetch(
@@ -68,9 +70,9 @@ export default function NameSearchForm() {
         <SearchBar
           firstName={firstName}
           lastName={lastName}
-          setFirstName={onInputChange}
-          setLastName={onInputChange}
+          onInputChange={onInputChange}
           onSearch={handleSearch}
+          onResetForm={onResetForm}
         />
       )}
       {error && <p style={{ color: "red" }}>{error}</p>}
