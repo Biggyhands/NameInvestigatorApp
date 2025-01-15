@@ -9,7 +9,6 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 - **Search:** Allows users to search for the origin of a name by entering the full name, only the first name, or only the last name.
 - **Name Details:** Displays the possible country of origin of the searched name, along with the estimated probability of that being the correct origin.
 - **Country Flag:** Shows the flag of the country corresponding to the name's origin.
-- **Country Detail:** Allows the user to click on the flag to obtain a random GIF related to that country.
 - **Styling:** Basic responsive design using CSS, adapting to different screen sizes.
 - **Error Handling:** Includes basic error handling for cases where the APIs fail or do not return information.
 
@@ -36,17 +35,15 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 
 This project uses the Namsor API to perform name-related analyses. To test the project in your local environment, you will need to obtain your own API Key from the official [Namsor API Website](https://namsor.app/):\*\*. This follows Namsor's best practices to ensure safe and personalized use of their API.
 
-**Initial Project Mockups :**
+**Demo**
 
-**Home Center**
-![image](https://github.com/user-attachments/assets/fedc2d0f-dc47-488d-b950-95f44d03fa88)
+[Demostration](<../../../Videos/2025-01-15 14-37-32.mkv>)
+
+**Home**
+![Home](image.png)
 
 **Search Result**
-![image](https://github.com/user-attachments/assets/6d3dbc57-cba4-41b3-a5b9-89efe82e07f8)
-
-**Country Detail**
-
-![image](https://github.com/user-attachments/assets/2aff345d-700d-4e9d-8762-eed3e2138bdf)
+![Results](image-1.png)
 
 **Assets used**
 

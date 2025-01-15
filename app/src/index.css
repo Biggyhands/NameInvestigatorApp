@@ -30,6 +30,11 @@ body {
   align-items: center;
 }
 
+#app {
+  min-width: 768px;
+  min-height: 832px;
+}
+
 /* Title styling*/
 .appTitle {
   font-weight: 400;
