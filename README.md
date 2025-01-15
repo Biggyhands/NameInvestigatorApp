@@ -42,10 +42,12 @@ https://github.com/user-attachments/assets/e8e435d3-a58f-4e25-924c-8912ed1dbc56
 
 
 **Home**
-![Home](image.png)
+![image](https://github.com/user-attachments/assets/d71186f3-038b-456e-82e2-cca074952114)
+
 
 **Search Result**
-![Results](image-1.png)
+![image](https://github.com/user-attachments/assets/5201b0be-27e4-4346-a468-6daf27fc5a1d)
+
 
 **Assets used**
 
