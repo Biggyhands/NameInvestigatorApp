@@ -36,8 +36,7 @@ The assets and APIs used in this project are **NOT** my original work. This appl
 This project uses the Namsor API to perform name-related analyses. To test the project in your local environment, you will need to obtain your own API Key from the official [Namsor API Website](https://namsor.app/):\*\*. This follows Namsor's best practices to ensure safe and personalized use of their API.
 
 **Demo**
-
-[Demostration](<../../../Videos/2025-01-15 14-37-32.mkv>)
+<video controls src="2025-01-15-14-37-32.mp4" title="Title"></video>
 
 **Home**
 ![Home](image.png)
